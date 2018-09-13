@@ -1,0 +1,5 @@
+uurloon = input('hoeveel verdien je per uur:')
+werkuren = input('hoeveel uur heb je gewerkt:')
+salaris = (float(uurloon) * float(werkuren))
+overzicht = 'Jouw totale salaris is €' + str(salaris)
+print(overzicht)
