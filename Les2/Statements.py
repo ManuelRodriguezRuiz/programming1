@@ -1,9 +1,9 @@
 a = 6
 b = 7
 
+c = (a + b) /2
 
-print(75 > a)
-print(75 < b)
+print(c)
 
 voornaam = 'Manuel'
 tussenvoegsel = ' '
