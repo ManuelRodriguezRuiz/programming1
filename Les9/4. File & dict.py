@@ -10,7 +10,6 @@ def ticker(filename: str):
         return tickers
 
 
-# zowel keys als values ophalen met een functie is niet erg SOlID
 def get_symbol(filename: str, company_name: str) -> str:
     tickers = ticker(filename)
     if company_name in tickers:
